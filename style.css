@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Roboto Condensed', sans-serif;
+  }
+  
+.bg {
+    /* The image used */
+    background-image: url("/images/bread.jpg");
+  
+    /* Full height */
+    height: 100%;
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    color: white;
+    font-weight: 900;
+    font-size: 40px;
+    padding: 1vh;
+    margin-left: 3vw;
+}
+
+.left {
+    float: left;
+    color: white;
+    font-size: 140px;
+    margin-left: 6vw;
+    margin-top: -12vh;
+}
+
+.right {
+    float: right;
+    color: darkgoldenrod;
+    font-size: 140px;
+    margin-top: -12vh;
+    margin-right: 3vw;
+}
+
+.par {
+    color: white;
+    float: right;
+    width: 45vh;
+    margin-right: -48vh;
+    margin-top: 17vw;
+    padding: 0px 0px 0px 0.8vh;
+    border-left: 1px solid white;
+}
+
+.lorem {
+    margin: 0px;
+}
+
+span {
+    color: darkslategrey;
+}
+
+button {
+    padding: 2vh 8vh 2vh 8vh;
+    background-color: darkgoldenrod;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 0 15px 15px 15px;
+    margin-top: -18vh;
+    margin-left: 2vh;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 90vh;
+}
+
+.grid-item {
+    border-radius: 0 15px 15px 15px;
+    background-color: white;
+    padding: 6px;
+    max-width: 6.5vw;
+}
+
+.nav {
+    margin-top: 73vh;
+    margin-left: 70vh;
+}
+
+.active {
+    background-color: darkgoldenrod;
+}
+
+.menu {
+    float: right;
+    margin-right: 3vh;
+    margin-top: -14vh;
+}
+.bar1 {
+    background-color: white;
+    width: 8vh;
+    height: 1.2vh;
+}
+
+.bar2 {
+    background-color: white;
+    width: 8vh;
+    height: 1.2vh;
+    margin-top: 1vh;
+}
+
+.bar3 {
+    background-color: white;
+    width: 8vh;
+    height: 1.2vh;
+    margin-top: 1vh;
+}
